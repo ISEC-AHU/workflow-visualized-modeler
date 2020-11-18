@@ -36,17 +36,17 @@ spring:
   profiles: dev
   datasource:
 #本地数据库
-   url: jdbc:mysql://localhost:3306/fogworkflowsim?useUnicode=true&useSSL=false&amp;characterEncoding=utf8&allowMultiQueries=true
+   url: jdbc:mysql://ip:3306/fogworkflowsim?useUnicode=true&useSSL=false&amp;characterEncoding=utf8&allowMultiQueries=true
    username: root
    password: root
 #isec数据库
-#   url: jdbc:mysql://47.74.84.61:3306/fogworkflowsim?useUnicode=true&useSSL=false&amp;characterEncoding=utf8&allowMultiQueries=true
-#   username: king
-#   password: ccis@2019
+#   url: jdbc:mysql://ip:3306/fogworkflowsim?useUnicode=true&useSSL=false&amp;characterEncoding=utf8&allowMultiQueries=true
+#   username:
+#   password:
 #临时数据库
-#   url: jdbc:mysql://47.98.222.243:3306/fogworkflowsim?useUnicode=true&useSSL=false&amp;characterEncoding=utf8&allowMultiQueries=true
-#   username: root
-#   password: ccis@2020
+#   url: jdbc:mysql://ip:3306/fogworkflowsim?useUnicode=true&useSSL=false&amp;characterEncoding=utf8&allowMultiQueries=true
+#   username:
+#   password:
   http:
     multipart:
       max-file-size: 10MB
@@ -68,4 +68,3 @@ path:
 #  activitiXmlPath: /root/sim/activitiXML/
 #  dagXmlPath: /root/sim/dagXML/
 #  modelXmlPath: /root/sim/modelXML/
-
